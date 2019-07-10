@@ -1,0 +1,504 @@
+/*Padronizar*/
+*{
+	font: 14px sans-serif;
+	margin: 0px;
+	padding: 0px; 	
+}
+
+body{
+	background-color: #e3e3e3;	
+}
+
+html,body{
+	overflow-x: hidden;
+}
+
+/*Topo*/
+
+header{
+	overflow: hidden;
+	background-color: #a737bd;
+}
+
+header h1{
+	padding: 10px;
+	font-size: 18px;
+	float: left;
+	color: #fff;
+}
+
+header img{
+	width : 145px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav a{
+	display: inline-block;
+	padding: 43px 20px;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-family: arial;
+	background: #a737bd;
+}
+
+header nav a:hover{ 
+	background-color: #752087;
+	color: #fff;
+	transition: background-color 0.7s;
+}
+
+header nav img{
+	width : 35px;
+	margin-top: -12px;
+}
+
+/*Footer*/
+footer{
+	margin-top: 150px;
+	background-color: #a737bd;
+	font-size: 10px;
+    text-align: center;
+}
+
+footer .imagens{	
+	background-color: #a737bd;
+}
+
+footer {
+	margin-top: 200px;
+    bottom:0;
+    left:0;
+    width: 1434px;
+} 
+
+.btn-group, .btn-group-vertical {
+	position: absolute;
+	z-index: 999;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.btn-secondary {
+	background-color:#ba16b6;
+	border-color: black;
+	color: black;
+}
+
+.btn-secondary:hover {
+    background-color: #660164;
+    background-image: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: black;
+    background-color: #660164;
+    border-color: black;
+}
+
+.produtos {
+	overflow: hidden;	
+	padding: 20px 10px;
+}
+
+.produtos div{
+	float: left;
+	text-align: center;
+	border: solid 1px #bababa;
+	border-radius: 10px;
+	margin: 25px;
+	transition: border-color 0.7s;
+	background-color: #d9d9d9;
+}
+
+.produtos div:hover{
+	box-shadow: 0px 0px 5px black;
+}
+
+.produtos img {
+	width: 235px;
+	margin: 25px;
+}
+
+.produtos div p{
+	background-color: #a737bd;
+	margin: 25px;
+	border: solid 1px #a737bd;
+	border-radius: 10px;
+}
+
+.form-control{ 
+	position: absolute;
+	z-index: 999;
+	width: 750px;
+	margin-left: 380px;
+	margin-top: -68px;
+}
+
+/*Informatica*/
+.produtosInformatica{
+	overflow: hidden;	
+	padding: 20px 10px;
+}
+
+.produtosInformatica div{
+	float: left;
+	text-align: center;
+	border: solid 1px #bababa;
+	border-radius: 10px;
+	margin: 25px;
+	transition: border-color 0.7s;
+	background-color: #d9d9d9;
+}
+
+.produtosInformatica div:hover{
+	box-shadow: 0px 0px 5px black;
+}
+
+.produtosInformatica img{
+	width: 255px;
+	margin: 25px;
+}
+
+.produtosInformatica div p{
+	background-color: #a737bd;
+	margin: 25px;
+	border: solid 1px #a737bd;
+	border-radius: 10px;
+}
+
+/*Eletrodomesticos*/
+.produtosEletrodomesticos{
+	overflow: hidden;	
+	padding: 20px 10px;
+}
+
+.produtosEletrodomesticos div{
+	float: left;
+	text-align: center;
+	border: solid 1px #bababa;
+	border-radius: 10px;
+	margin: 25px;
+	transition: border-color 0.7s;
+	background-color: #d9d9d9;
+}
+
+.produtosEletrodomesticos div:hover{
+	box-shadow: 0px 0px 5px black;
+}
+
+.produtosEletrodomesticos img{
+	width: 255px;
+	margin: 25px;
+}
+
+.produtosEletrodomesticos div p{
+	background-color: #a737bd;
+	margin: 25px;
+	border: solid 1px #a737bd;
+	border-radius: 10px;
+}
+
+/*Automotivo*/
+.produtosAutomotivos{
+	overflow: hidden;	
+	padding: 20px 10px;
+}
+
+.produtosAutomotivos div{
+	float: left;
+	text-align: center;
+	border: solid 1px #bababa;
+	border-radius: 10px;
+	margin: 25px;
+	transition: border-color 0.7s;
+	background-color: #d9d9d9;
+}
+
+.produtosAutomotivos div:hover{
+	box-shadow: 0px 0px 5px black;
+}
+
+.produtosAutomotivos img{
+	width: 255px;
+	margin: 25px;
+}
+
+.produtosAutomotivos div p{
+	background-color: #a737bd;
+	margin: 25px;
+	border: solid 1px #a737bd;
+	border-radius: 10px;
+}
+
+.menu {
+    float: right;
+    margin-left: 100px;
+    width: 230px;
+    margin-top: 50px; 
+    text-align: center;
+}
+
+/*Livros*/
+.produtosLivros{
+	overflow: hidden;	
+	padding: 20px 10px;
+}
+
+.produtosLivros div{
+	float: left;
+	text-align: center;
+	border: solid 1px #bababa;
+	border-radius: 10px;
+	margin: 25px;
+	transition: border-color 0.7s;
+	background-color: #d9d9d9;
+}
+
+.produtosLivros div:hover{
+	box-shadow: 0px 0px 5px black;
+}
+
+.produtosLivros img{
+	width: 255px;
+	margin: 25px;
+}
+
+.produtosLivros div p{
+	background-color: #a737bd;
+	margin: 25px;
+	border: solid 1px #a737bd;
+	border-radius: 10px;
+}
+
+.menu a {
+	line-height: 2.0; 
+	font-size: 25px;
+	text-align: center;	
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+
+.menu a:hover {
+	color: #a737bd;
+	transition: color 0.7s;
+}
+
+.menu h1 {
+	text-align: center;
+	font-size: 55px; 
+	font-family: rockwell;
+}
+
+.menu div {
+	border: solid 1px #bababa; 
+	border-radius: 5px 0px 0px 5px;
+	background-color: #d9d9d9;
+}
+
+.menu hr {
+	border: 2px solid #bababa; 
+} 
+
+.tabelaProduto {
+	float: hidden; 
+}
+
+#barraListagem{
+	background-color:#a737bd; min-height: 0px; position:absolute; right:-800px;  color:black; margin-top:108px; transition:right 0.5s; border: outset 0.5px black; position: absolute;
+	z-index: 999;; 
+} 
+
+#barraListagem{
+	width: 325px;	
+}
+
+#barraListagem table{
+	margin-bottom: 15px;
+	float: center; 
+}
+
+#lista td{	
+	padding-right: 30px;
+	margin-top: 10px;
+	font-family: rockwell;
+}
+
+#lista button{
+	width: 80px; 
+	padding-left: 5px;
+	margin-top: 7px;
+	text-aling: center;
+}
+
+.btn btn-secondary {
+	margin: 10px;
+}
+
+/*Cadastro------------------------------------------------------------*/
+
+.formularioCadastro{
+	margin-top: -300px; 
+	overflow: hidden;
+    padding: 10px 0px;
+	margin-bottom: 100px;
+	width: 400px;
+	margin: 10px auto;
+	border-radius: 15px;
+	margin-left: 500px;
+}
+
+.hrefLogar{
+	margin-left: 110px;
+}
+
+.hrefCadastro{
+	margin-left: 110px;
+}
+
+.formularioCadastro input[type="text"],
+.formularioCadastro input[type="submit"]{
+	width: 380px;
+	border: solid 1px #ccc;
+	border-radius: 15px;
+	margin: 12px;
+	padding: 10px;
+}
+
+/*Login------------------------------------------------------------*/
+
+.formularioLogin input[type="text"],
+.formularioLogin input[type="submit"]{
+	width: 380px;
+	border: solid 1px #ccc;
+	border-radius: 15px;
+	margin: 12px;
+	padding: 10px;
+}
+
+.formularioCadastro input[type="password"] {
+	width: 380px;
+	border: solid 1px #ccc;
+	border-radius: 15px;
+	margin: 12px;
+	padding: 10px;
+}
+
+.checkbx{
+	margin-left: 640px;
+}
+
+.div{
+	margin-top: 100px;
+}
+/*Termos*/
+.termos{
+	margin-left: 520px;
+	margin-top: 10px;
+	width: 350px;
+	font-style: bold;
+	font-size: 15px;
+    text-align: left;
+    border: solid 1px #ccc;
+    border-radius: 15px;
+}
+.termos p{
+	margin: 30px;
+}
+
+/*Form control do search*/
+.form-control { 
+	position: absolute;
+	z-index: 999;
+	width: 750px;
+	margin-left: 380px;
+	margin-top: -68px;
+}
+
+.check{
+	font-size: 15px;
+	margin-left: 610px;
+	margin-top: 10px;	
+}
+
+.check{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(3); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  margin-left: 620px;
+}
+
+/*P/ TRANSPORTE.JSP------------------------------------------------------------*/
+
+.formularioTransporte{
+	margin-top: 80px;
+}
+
+.formularioTransporte input[type="text"],
+.formularioTransporte input[type="text_field"],
+.formularioTransporte input[type="submit"]{	
+	width: 380px;
+	border: solid 1px #ccc;
+	border-radius: 15px;
+	margin: 12px;
+	padding: 10px;
+	margin-left: 500px;	
+	margin-top: 20px;
+}
+
+.formularioTransporte input[type="submit"]{	
+	width: 400px;
+}
+
+.botaozaobao{
+	width: 380px;
+	border: solid 1px #ccc;
+	border-radius: 15px;
+	margin: 12px;
+	padding: 10px;
+	margin-left: 500px;	
+	margin-top: 20px;
+	width: 400px;
+}
+
+.formularioCadastro p {
+	font-family: times new roman;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 130px; 
+}
+
+/*Checkbox do pagamento*/
+.cbox1{
+	margin-left: 600px;
+	margin-top: 60px;
+}
+.cbox2{
+	margin-left: 600px;
+	margin-top: 60px;
+}
+.cbox3{
+	margin-left: 600px;
+	margin-top: 70px;
+}
+
+.mastercard{
+	margin-left: 20px;
+	width: 100px;
+}
+
+.cielo{
+	margin-left: 45px;
+	width: 100px;
+}
+
